@@ -1,0 +1,15 @@
+{
+  "name": "pacaci-husnu-whatsapp-bot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "clasp:login": "clasp login",
+    "clasp:status": "clasp status",
+    "clasp:push": "clasp push",
+    "clasp:deploy": "clasp push && clasp update-deployment \"$CLASP_DEPLOYMENT_ID\""
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.0.6"
+  }
+}

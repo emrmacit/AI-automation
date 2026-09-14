@@ -1,0 +1,24 @@
+Google Apps Script > Project Settings > Script Properties bölümüne eklenecek değerler:
+
+OPENAI_API_KEY = sk-... ile başlayan OpenAI API anahtarınız
+GREEN_API_URL = https://7107.api.greenapi.com
+GREEN_ID_INSTANCE = 710722721729
+GREEN_API_TOKEN = Green API apiTokenInstance değeriniz
+SPREADSHEET_ID = 1M3mkytSKdmJftcybuYuS5Y8fBhardMI5lAraVq-mzSQ
+OPENAI_MODEL = gpt-4o-mini
+WEBHOOK_SECRET = kendinizin belirleyeceği uzun gizli metin
+PROTOTYPE_MODE = hayir
+
+İsteğe bağlı:
+PATRON_TELEFON = sipariş/devir bildirimi almak isteyen yetkili numarası
+TEST_PHONE = sadece prototip filtresi açılırsa izin verilecek müşteri/test numarası
+
+Notlar:
+- OPENAI_MODEL opsiyoneldir. Boş bırakılırsa gpt-4o-mini kullanılır.
+- WEBHOOK_SECRET opsiyoneldir ama önerilir. Kullanırsanız Green API webhook URL sonuna ?secret=BURADAKI_DEGER ekleyin.
+- Bot numarası Script Properties içinden belirlenmez. Bot numarası, Green API'ye bağladığınız WhatsApp hattıdır.
+- PROTOTYPE_MODE = hayir ise bot numarasına yazan herkes işlenir. Bu durumda TEST_PHONE gerekmez.
+- PROTOTYPE_MODE = evet iken bot sadece TEST_PHONE numarasından gelen mesajı işler ve sadece TEST_PHONE numarasına WhatsApp mesajı gönderir.
+- PATRON_TELEFON boş kalırsa sipariş/devir bildirimleri ayrıca bir yetkiliye gönderilmez.
+- API anahtarlarını Google Sheets hücrelerine yazmayın.
+- Patron telefonu artı işareti olmadan, sadece rakamla yazılır.
