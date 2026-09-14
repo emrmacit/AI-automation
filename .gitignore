@@ -5,6 +5,7 @@ apps-script-surumu/node_modules/
 spreadsheet-work/node_modules/
 
 # Next.js build
+.next/
 web/.next/
 web/out/
 
