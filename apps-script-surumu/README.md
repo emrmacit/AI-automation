@@ -31,7 +31,7 @@ Green API WhatsApp
 
 ## Prototip Güvenliği
 
-Bot numarası Script Properties içinde belirlenmez. Bot numarası Green API'ye bağladığınız WhatsApp hattıdır. Sizin durumda bot hattı `+31 684025772`.
+Bot numarası Script Properties içinde belirlenmez. Bot numarası Green API'ye bağladığınız WhatsApp hattıdır. Sizin durumda bot hattı `+90 530 111 22 33`.
 
 Bu hat aktif restoran hattı değilse ve herkese açık test etmek istiyorsanız:
 

@@ -87,7 +87,7 @@ PROTOTYPE_MODE = hayir
 Bot numarası burada yazılmaz. Bot numarası Green API'ye bağladığınız WhatsApp hattıdır. Sizin durumda bot hattı:
 
 ```text
-+31 684025772
++90 530 111 22 33
 ```
 
 Eğer bu hat aktif restoran hattı değilse ve deneme için kullanılıyorsa:
@@ -98,7 +98,7 @@ TEST_PHONE = boş bırakılabilir
 PATRON_TELEFON = boş bırakılabilir
 ```
 
-Bu durumda `+31 684025772` hattına kim mesaj atarsa bot cevap verir.
+Bu durumda `+90 530 111 22 33` hattına kim mesaj atarsa bot cevap verir.
 
 Ekstra güvenlik isterseniz:
 

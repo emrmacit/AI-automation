@@ -40,7 +40,7 @@ PROTOTYPE_MODE = hayir
 
 Önemli:
 
-- `+31 684025772` bot hattıdır. Bot numarası Script Properties'e yazılmaz, Green API instance'ına bağlı WhatsApp hattından gelir.
+- `+90 530 111 22 33` bot hattıdır. Bot numarası Script Properties'e yazılmaz, Green API instance'ına bağlı WhatsApp hattından gelir.
 - Bu hat aktif restoran hattı değilse `PROTOTYPE_MODE = hayir` kullanabilirsin. O zaman bu hatta yazan herkes bot tarafından cevaplanır.
 - Sipariş/devir bildirimi almak istersen `PATRON_TELEFON` ekleyebilirsin.
 - Sadece tek bir test numarasına izin vermek istersen `PROTOTYPE_MODE = evet` ve `TEST_PHONE = mesaj atacak numara` yap.

@@ -164,7 +164,7 @@ setRows(ayarlar, "A1", [
   ["siparis_7_24", "WhatsApp siparisi 7/24 alinsin mi", "evet"],
   ["adres", "Merkez adres", "Orhaneli Yolu Odunluk Mah. Lefkoşe Cad. Eker İş Merkezi No: 19B/C, 16110 Nilüfer/Bursa"],
   ["harita_linki", "Merkez Google Maps linki", mapsUrl],
-  ["telefon", "Bot WhatsApp numarasi", "+31 684025772"],
+  ["telefon", "Bot WhatsApp numarasi", "+90 530 111 22 33"],
   ["saat_dilimi", "Saat dilimi", "Europe/Istanbul"],
   ["kargo_kapsami", "Kargo kapsami", "Türkiye geneli 81 il"],
   ["kargo_ucreti_sabit", "Sabit kargo ucreti (TL) - ornektir", 80],

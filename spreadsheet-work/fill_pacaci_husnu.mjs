@@ -33,7 +33,7 @@ setRows(ayarlar, "A1", [
   ["sube_adi", "Sube", "Odunluk / Nilüfer"],
   ["adres", "Acik adres", "Orhaneli Yolu Odunluk Mah. Lefkoşe Cad. Eker İş Merkezi No: 19B/C, 16110 Nilüfer/Bursa"],
   ["harita_linki", "Google Maps linki", mapsUrl],
-  ["telefon", "Iletisim telefonu", "+31 684025772"],
+  ["telefon", "Iletisim telefonu", "+90 530 111 22 33"],
   ["enlem_boylam", "Konum (yaklasik, mesafe icin)", ""],
   ["saat_dilimi", "Saat dilimi", "Europe/Istanbul"],
   ["teslimat_yaricap_km", "Teslimat yaricapi (km)", ""],
@@ -48,7 +48,7 @@ setRows(ayarlar, "A1", [
   ["pazarlama_aktif", "Proaktif pazarlama", "hayir"],
   ["bot_aktif", "Bot aktif mi", "evet"],
   ["kvkk_riza_metni", "Musteriye gosterilecek KVKK metni", "Paçacı Hüsnü olarak sipariş ve iletişim süreçleri için numaranızı ve mesajlarınızı kaydediyoruz. Dilediğiniz an SİL yazarak kaydınızı kaldırabilirsiniz."],
-  ["prototip_notu", "Prototip güvenlik notu", "Botun görünen WhatsApp numarası +31 684025772 olarak ayarlandı. Testte Apps Script PROTOTYPE_MODE=evet ve TEST_PHONE mesaj gönderen kendi test numaranız olmalı."],
+  ["prototip_notu", "Prototip güvenlik notu", "Botun görünen WhatsApp numarası +90 530 111 22 33 olarak ayarlandı. Testte Apps Script PROTOTYPE_MODE=evet ve TEST_PHONE mesaj gönderen kendi test numaranız olmalı."],
   ["kaynak_notu", "Doldurulan bilgilerin kaynagi", `Adres ve ürün adları resmi iletişim sayfası/Google Maps bilgisinden; saat kaynağı: ${hoursSourceUrl}. Menü fiyatları, teslimat ücretleri, minimum sepet ve süreler örnektir.`]
 ]);
 clearRangeIfExists(ayarlar, "A23:C80");
@@ -150,7 +150,7 @@ clearRangeIfExists(sss, "A2:C200");
 setRows(sss, "A1", [
   ["soru", "cevap", "durum"],
   ["Adresiniz nerede?", `Adresimiz: Orhaneli Yolu Odunluk Mah. Lefkoşe Cad. Eker İş Merkezi No: 19B/C, 16110 Nilüfer/Bursa. Konum: ${mapsUrl}`, "aktif"],
-  ["Telefon numaranız nedir?", "Bot WhatsApp numaramız: +31 684025772.", "aktif"],
+  ["Telefon numaranız nedir?", "Bot WhatsApp numaramız: +90 530 111 22 33.", "aktif"],
   ["Çalışma saatleriniz nedir?", "Pazartesi-Cumartesi 06:30-16:00 arası açık görünüyoruz. Pazar günü kapalıyız. Resmi tatiller ve özel günler için lütfen telefonla teyit edin.", "aktif"],
   ["Pazar günü açık mısınız?", "Pazar günü kapalı görünüyoruz. Özel günler için lütfen telefonla teyit edin.", "aktif"],
   ["Paket servis veya teslimat var mı?", "Prototipte paket servis açıktır. Bursa ilçeleri örnek olarak teslimat bölgesi yapılmıştır, teslimat ücreti örnek 50 TL'dir.", "aktif"],
