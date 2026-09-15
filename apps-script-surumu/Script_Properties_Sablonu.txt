@@ -1,10 +1,10 @@
 Google Apps Script > Project Settings > Script Properties bölümüne eklenecek değerler:
 
 OPENAI_API_KEY = sk-... ile başlayan OpenAI API anahtarınız
-GREEN_API_URL = https://7107.api.greenapi.com
-GREEN_ID_INSTANCE = 710722721729
+GREEN_API_URL = https://YOUR_INSTANCE.api.greenapi.com
+GREEN_ID_INSTANCE = YOUR_ID_INSTANCE_HERE
 GREEN_API_TOKEN = Green API apiTokenInstance değeriniz
-SPREADSHEET_ID = 1M3mkytSKdmJftcybuYuS5Y8fBhardMI5lAraVq-mzSQ
+SPREADSHEET_ID = YOUR_SPREADSHEET_ID_HERE
 OPENAI_MODEL = gpt-4o-mini
 WEBHOOK_SECRET = kendinizin belirleyeceği uzun gizli metin
 PROTOTYPE_MODE = hayir
