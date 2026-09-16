@@ -1,6 +1,6 @@
-# Relay
+# Enqivo
 
-Relay is a small-business customer assistant and sales demo. A business owner keeps approved facts in a simple workspace; a prospect tries the experience in a separate phone-shaped demo. Booking, order and viewing enquiries are saved to Google Sheets for follow-up.
+Enqivo is a small-business customer assistant and sales demo. A business owner keeps approved facts in a simple workspace; a prospect tries the experience in a separate phone-shaped demo. Booking, order and viewing enquiries are saved to Google Sheets for follow-up.
 
 ## What v1 does
 
@@ -28,7 +28,7 @@ Without Google credentials, the app uses clearly labelled, reset-on-restart demo
 2. Create a least-privilege Google Cloud service account with Sheets API access.
 3. Share only that sheet with the service-account email as Editor.
 4. Set `GOOGLE_SHEETS_ID`, `GOOGLE_SERVICE_ACCOUNT_EMAIL` and `GOOGLE_PRIVATE_KEY` in the deployment environment.
-5. On first use Relay creates `Business`, `Hours`, `Offerings`, `FAQs` and `Leads` tabs.
+5. On first use Enqivo creates `Business`, `Hours`, `Offerings`, `FAQs` and `Leads` tabs.
 
 Use a separate sheet and deployment configuration per client during the pilot. Do not put credentials in the sheet or browser.
 

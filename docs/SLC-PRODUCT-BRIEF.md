@@ -1,17 +1,17 @@
 ---
-product: "Relay"
+product: "Enqivo"
 status: "building"
 mode: "slc-audit"
 updated: "2026-09-15"
 ---
 
-# SLC Product Brief — Relay
+# SLC Product Brief — Enqivo
 
 ## Executive decision
 
 **Verdict:** Reduce scope and build a complete paid-pilot product.
 
-**Core contract:** For an independent business owner, when customers repeatedly ask the same questions or request a booking/order in chat, Relay gives customers approved information and records a structured request so the owner can follow up without losing it.
+**Core contract:** For an independent business owner, when customers repeatedly ask the same questions or request a booking/order in chat, Enqivo gives customers approved information and records a structured request so the owner can follow up without losing it.
 
 **v1 does not promise:** confirmed appointments, payments, inventory reservation, real WhatsApp delivery, staff calendars, multi-branch support or free-form AI advice.
 
@@ -54,7 +54,7 @@ updated: "2026-09-15"
 3. Owner opens the separate customer demo.
 4. Prospect asks a question and receives only approved information.
 5. Prospect requests a booking, order or viewing.
-6. Relay records the request as unconfirmed in `Leads`.
+6. Enqivo records the request as unconfirmed in `Leads`.
 7. Owner sees the new request and follows up.
 
 ## Trust and failure rules

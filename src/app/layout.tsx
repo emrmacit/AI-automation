@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Relay — Customer requests, made manageable",
+  title: "Enqivo — Customer requests, made manageable",
   description: "A simple customer assistant for independent businesses.",
 };
 

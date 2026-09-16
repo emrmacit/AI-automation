@@ -58,7 +58,7 @@ export default function Dashboard() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <Link href="/" className="brand"><span className="brand-mark">R</span><span>Relay</span></Link>
+        <Link href="/" className="brand"><span className="brand-mark">E</span><span>Enqivo</span></Link>
         <div className="business-switcher"><span className="avatar">{state.profile.name.charAt(0)}</span><div><strong>{state.profile.name}</strong><small>{state.profile.category}</small></div><ChevronRight size={16} /></div>
         <nav>{sections.map((item) => <button key={item.id} className={section === item.id ? 'active' : ''} onClick={() => setSection(item.id)}>{item.label}</button>)}</nav>
         <div className="sidebar-note"><Database size={16} /><div><strong>{state.storage === 'google-sheets' ? 'Google Sheets connected' : 'Demo storage'}</strong><small>{state.storage === 'google-sheets' ? 'Changes sync automatically.' : 'Connect Sheets before launch.'}</small></div></div>
