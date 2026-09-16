@@ -66,6 +66,10 @@ export default function LandingPage() {
 
     <section className="final-cta"><span className="landing-kicker">SEE IT FROM THE CUSTOMER’S SIDE</span><h2>Try a real conversation before you change a thing.</h2><p>Ask about prices. Check the opening hours. Submit a request. Then open the workspace to see how the business controls the experience.</p><div><Link className="landing-button cream" href="/demo">Launch the live demo <ArrowRight size={17} /></Link><Link className="final-link" href="/workspace">Explore the workspace</Link></div></section>
 
-    <footer className="landing-footer"><Link href="/" className="landing-brand"><span>R</span>Relay</Link><p>Customer requests, made manageable.</p><div><Link href="/demo">Demo</Link><Link href="/workspace">Workspace</Link></div></footer>
+    <footer className="landing-footer">
+      <Link href="/" className="landing-brand"><span>R</span>Relay</Link>
+      <p className="footer-credit">Designed &amp; built by <a href="https://emremacit.com" target="_blank" rel="noopener noreferrer">Emre Macit</a></p>
+      <div><Link href="/demo">Demo</Link><Link href="/workspace">Workspace</Link></div>
+    </footer>
   </main>;
 }
